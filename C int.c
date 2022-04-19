@@ -38,9 +38,8 @@ for (int j=0;j<128;j++)
 int answer=0;
 for (int k=0;k<128;k++)
 {
-answer+= matrix_1[i][k]*matrix_2[k][j];
+matrix_3[i][j]+= matrix_1[i][k]*matrix_2[k][j];
 }
-matrix_3[i][j]=answer;
 }
 }
  
